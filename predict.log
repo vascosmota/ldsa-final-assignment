@@ -1,0 +1,83 @@
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Running pipeline
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Running pipeline
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Running pipeline
+Starting pipeline_2
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1, 'id': 1}
+Running pipeline
+Starting pipeline_2
+Ending pipeline_2
+Index(['interest_earned', 'monthly_work', 'age', 'school_years',
+       'domestic_relationship_type.never married', 'profession.other',
+       'job_type.other', 'domestic_status.single'],
+      dtype='object')
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'id': 1}
+Running pipeline
+Starting pipeline_2
+Ending pipeline_2
+Index(['interest_earned', 'monthly_work', 'age', 'school_years',
+       'domestic_relationship_type.never married', 'profession.other',
+       'job_type.other', 'domestic_status.single'],
+      dtype='object')
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'id': 1}
+Running pipeline
+Value predicted: [1.0096319]
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'id': 1}
+Running pipeline
+Value predicted: 1.0096318962496686
+=========== NEW PREDICTION =============
+Payload
+{'id': 1, 'observation': {'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'target': 1}}
+Observation
+{'birth date': '1983-12-26', 'job type': 'private', 'school level': 'secondary', 'domestic status': 'single', 'profession': 'mechanic', 'domestic relationship type': 'never married', 'ethnicity': 'afro american', 'gender': 'Female', 'earned dividends': 0, 'interest earned': 0, 'monthly work': 160, 'country of origin': 'u.s.', 'id': 1}
+Running pipeline
+Value predicted: 1.0096318962496686

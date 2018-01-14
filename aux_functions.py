@@ -1,5 +1,16 @@
 import pandas as pd
 import copy
+import datetime
+import logging
+
+# create logger with 'spam_application'
+logger = logging.getLogger('aux_functions')
+logger.setLevel(logging.DEBUG)
+# create file handler which logs even debug messages
+fh = logging.FileHandler('predict.log')
+fh.setLevel(logging.DEBUG)
+logger.addHandler(fh)
+
 
 def rename_columns(df):    
     names_mapping = {}
@@ -86,6 +97,13 @@ def is_currently_single(df):
         (df.domestic_status ==   'spouse passed')
     )
     
+def get_dummies(df, feature, relevant_labels):
+    for l in relevant_labels:
+        df[feature + l] = (df[feature] == l)
+    df = df.drop(feature, axis=1)
+    return df
+
+    
 def pipeline_2(df_in, **kwargs):
     df = copy.deepcopy(df_in)
     df = rename_columns(df)
@@ -102,18 +120,22 @@ def pipeline_2(df_in, **kwargs):
     # Group spouses and extract relevant domestic relationship types
     df['domestic_relationship_type'] = df.domestic_relationship_type.apply(group_spouses)
     df['domestic_relationship_type'] = df.domestic_relationship_type.apply(extract_relevant_domestic_relationship_types)
-    df = pd.get_dummies(df, prefix='domestic_relationship_type', columns=['domestic_relationship_type'], prefix_sep='.')  
+    df = get_dummies(df, 'domestic_relationship_type', ['has spouse', 'living with child', 'never married', 'not living with family', 'other'])
+    # df = pd.get_dummies(df, prefix='domestic_relationship_type', columns=['domestic_relationship_type'], prefix_sep='.')  
     
     # Extract relevant professions
     df['profession'] = df.profession.apply(extract_relevant_professions)
-    df = pd.get_dummies(df, prefix='profession', columns=['profession'], prefix_sep='.')  
+    df = get_dummies(df, 'profession', ['C-level', 'specialist technician', 'other'])
+    # df = pd.get_dummies(df, prefix='profession', columns=['profession'], prefix_sep='.')  
     
     # Extrct relevant job types
     df['job_type'] = df.job_type.apply(extract_relevant_job_types)
-    df = pd.get_dummies(df, prefix='job_type', columns=['job_type'], prefix_sep='.')      
+    df = get_dummies(df, 'job_type', ['self-emp-inc', 'self-emp-not-inc', 'other'])
+    # df = pd.get_dummies(df, prefix='job_type', columns=['job_type'], prefix_sep='.')      
         
     # Extract relevant domestic status
     df['domestic_status'] = df.domestic_status.apply(extract_relevant_domestic_status)
-    df = pd.get_dummies(df, prefix='domestic_status', columns=['domestic_status'], prefix_sep='.')      
+    df = get_dummies(df, 'domestic_status', ['married 2', 'single', 'd', 'divorce pending', 'other'])
+    # df = pd.get_dummies(df, prefix='domestic_status', columns=['domestic_status'], prefix_sep='.')      
      
     return df
