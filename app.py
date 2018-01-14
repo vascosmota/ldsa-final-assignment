@@ -66,6 +66,8 @@ def convert_input(req):
 def predict():
     logger.info("=========== NEW PREDICTION =============")
     observation = convert_input(request)
+    logger.info("New observation")
+    logger.info(observation)
     obs = pd.DataFrame([observation], columns=columns).astype(dtypes)
     logger.debug("Running pipeline")
     proba = pipeline.predict(obs).tolist()[0]
